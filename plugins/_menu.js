@@ -23,9 +23,8 @@ bot.addCommand(
       return 0
     })
     const [date, time] = getDate()
-    let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
-╰────────────────╯
+    let CMD_HELP = `╭────────────────
+╰────────────────╯.      E҉V҉O҉-҉5҉
 
 ╭────────────────
 │ Prefix : ${PREFIX}
@@ -93,7 +92,7 @@ bot.addCommand(
       }
     })
     const [date, time] = getDate()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
+    let msg = `\`\`\`╭═══ E҉V҉O҉-҉5҉ ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
@@ -106,6 +105,7 @@ bot.addCommand(
 ┃❃│ Uptime : ${getUptime('t')}
 ┃❃│ Platform : ${getPlatform()}
 ┃❃╰───────────────
+|. E҉V҉O҉-҉5҉
 ╰═════════════════⊷\`\`\`\n`
 
     if (match && commands[match]) {
